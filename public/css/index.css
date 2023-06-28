@@ -1,121 +1,145 @@
-.task1 {
+.task1 .description {
+  background-color: green;
 }
 
-.task2 {
+.task2 .description {
+  background-image: "img/div.container-1.png";
 }
 
-.task3 {
+.task .description {
+ background-image: linear-gradient(yellow,red );
 }
 
-.task4 {
+.task4 .description {
+  background-image: radial-gradient(closest-side, #3f87a6, #ebf8e1, #f69d3c);
 }
 
-.task5 {
+.task5 .description {
+  background-image: conic-gradient(from 3.1416rad at 10% 50%, #e66465, #9198e5);
 }
 
-.task6 {
+.task6 .description {
+  background-repeat: repeat-x;
   background-image: url('/img/img-400x200.jpg');
 }
 
-.task7 {
+.task7 .description {
+  background-repeat: repeat-y;
   background-image: url('/img/img-400x200.jpg');
 }
 
-.task8 {
+.task8 .description {
+  background-repeat: repeat;
   background-image: url('/img/img-400x200.jpg');
 }
 
-.task9 {
+.task9 .description{
+  background-repeat: space;
   background-image: url('/img/img-400x200.jpg');
 }
 
-.task10 {
+.task10 .description {
+  background-repeat: round;
   background-image: url('/img/img-400x200.jpg');
 }
 
-.task11 {
+.task11 .description {
+  background-repeat: scroll;
   background-image: url('/img/img-400x200.jpg');
 }
 
-.task12 {
+.task12 .description {
+  background-repeat: fixed;
   background-image: url('/img/img-400x200.jpg');
 }
 
-.task13 {
+.task13 .description {
+  background-repeat: local;
   background-image: url('/img/img-400x200.jpg');
 }
 
-.task14 {
+.task14 .description {
+  background-position: center;
   background-image: url('/img/img-400x200.jpg');
 }
 
-.task15 {
+.task15 .description {
+  background-position: top;
   background-image: url('/img/img-400x200.jpg');
 }
 
-.task16 {
+.task16 .description {
+  background-position: bottom;
   background-image: url('/img/img-400x200.jpg');
 }
 
-.task17 {
+.task17 .description {
+  background-position: left;
   background-image: url('/img/img-400x200.jpg');
 }
 
-.task18 {
+.task18 .description {
+  background-position: right;
   background-image: url('/img/img-400x200.jpg');
 }
 
-.task19 {
+.task19 .description {
+  background-size: left 100px;
   background-image: url('/img/img-400x200.jpg');
 }
 
-.task20 {
+.task20 .description {
+  background-size: auto;
   background-image: url('/img/img-400x200.jpg');
 }
 
-.task21 {
+.task21 .description {
+  background-size: contain 600px;
   background-image: url('/img/img-400x200.jpg');
 }
 
-.task22 {
+.task22 .description {
+  background-size: 50%;
   background-image: url('/img/img-400x200.jpg');
 }
 
-.task23 {
+.task23 .description {
+  background-size: contain;
   background-image: url('/img/img-400x200.jpg');
 }
 
-.task24 {
+.task24 .description {
+  background-size: cover;
   background-image: url('/img/img-400x200.jpg');
 }
 
-.task25 {
+.task25 .description {
   border: 20px dashed black;
   background-image: url('/img/img-400x200.jpg');
   box-sizing: border-box;
 }
 
-.task26 {
+.task26 .description {
   background-image: url('/img/img-400x200.jpg');
   border: 20px dashed black;
   box-sizing: border-box;
 }
 
-.task27 {
+.task27 .description {
   background-image: url('/img/img-400x200.jpg');
   font-size: 120px;
   font-weight: 900;
   color: transparent;
 }
 
-.task28 {
+.task28 .description {
   background-image: url('/img/img-400x200.jpg');
   box-sizing: border-box;
   border: 20px dashed black;
   background-repeat: no-repeat;
 }
 
-.task29 {
+.task29 .description {
   background-image: url('/img/img-400x200.jpg');
   box-sizing: border-box;
   border: 20px dashed black;
@@ -123,7 +147,7 @@
   background-repeat: no-repeat;
 }
 
-.task30 {
+.task30 .description {
   background-image: url('/img/img-400x200.jpg');
   box-sizing: border-box;
   border: 20px dashed black;
